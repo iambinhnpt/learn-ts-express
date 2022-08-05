@@ -1,0 +1,46 @@
+Arguments: 
+  /Users/binh.nguyenphamthien/.nvm/versions/node/v14.19.3/bin/node /Users/binh.nguyenphamthien/.nvm/versions/node/v14.19.3/bin/yarn add typescript express ts-npde
+
+PATH: 
+  /Users/binh.nguyenphamthien/.nvm/versions/node/v14.19.3/bin:/Users/binh.nguyenphamthien/.nvm/versions/node/v14.19.3/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/binh.nguyenphamthien/.nvm/versions/node/v14.19.3/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/Applications/Visual Studio Code.app/Contents/Resources/app/bin:/Applications/Visual Studio Code.app/Contents/Resources/app/bin
+
+Yarn version: 
+  1.22.18
+
+Node version: 
+  14.19.3
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/ts-npde: Not found
+      at Request.params.callback [as _callback] (/Users/binh.nguyenphamthien/.nvm/versions/node/v14.19.3/lib/node_modules/yarn/lib/cli.js:66138:18)
+      at Request.self.callback (/Users/binh.nguyenphamthien/.nvm/versions/node/v14.19.3/lib/node_modules/yarn/lib/cli.js:140883:22)
+      at Request.emit (events.js:400:28)
+      at Request.<anonymous> (/Users/binh.nguyenphamthien/.nvm/versions/node/v14.19.3/lib/node_modules/yarn/lib/cli.js:141855:10)
+      at Request.emit (events.js:400:28)
+      at IncomingMessage.<anonymous> (/Users/binh.nguyenphamthien/.nvm/versions/node/v14.19.3/lib/node_modules/yarn/lib/cli.js:141777:12)
+      at Object.onceWrapper (events.js:519:28)
+      at IncomingMessage.emit (events.js:412:35)
+      at endReadableNT (internal/streams/readable.js:1333:12)
+      at processTicksAndRejections (internal/process/task_queues.js:82:21)
+
+npm manifest: 
+  {
+    "name": "learn-ts-express",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
